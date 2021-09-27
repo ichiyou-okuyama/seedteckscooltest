@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:  none;
+    font-weight: bold;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: thick solid red;
+    border-left: thick solid red;
+}
+#one{
+    flex-basis: 30%;
+    height: 30vh;
+    background-color: #573f2e;
+    border-bottom: thick solid white;
+}
+/* 文字色・配置箇所 */
+.top{
+    margin-top: 30px;
+    margin-left: 19vw;
+    color: red;
+}
+.bottom{
+    margin-top: 180px;
+    margin-left:-50px;
+    color: white;
+}
+.left{
+    margin-top: 20vh;
+    margin-left:25px;
+    color: red;
+}
+#two{
+    flex-basis: 30%;
+    height: 40vh;
+    background-color: #FAEDED;
+    position: relative;
+}
+#three{
+    flex-basis: 70%;
+    height: 30vh;
+    background-color: #3e2d21;
+}
+/* 文字色・配置箇所 */
+.thre{
+    color: white;
+    border-left: thick solid white; 
+}
+.center-topleft{
+    margin-top: 5em;
+    margin-left: 2em;
+}
+.center-topbottom{
+    text-align: center;
+    margin-top: 8em;
+}
+#four{
+    flex-basis: 70%;
+    height: 40vh;
+    background-color: #6A4021;
+    position: relative;
+}
+/*文字色変更*/
+.fourfont{
+    margin-left: 2em;
+    margin-top: 12em;
+    color: white;
+}
+.gnyw{
+    margin-left: 8em;
+    color: greenyellow;
+}
+#five{
+    flex-basis: 30%;
+    height: 30vh;
+    background-color: #FAEDED;
+    position: relative;
+}
+#six{
+    flex-basis: 70%;
+    height: 30vh;
+    background-color: #3e2d21;
+    text-align: left;
+}
+/*文字色変更*/
+.sixfont{
+    color: greenyellow;
+    margin-top: 6em;
+    margin-left: 10em;
+}
